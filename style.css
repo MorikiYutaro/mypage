@@ -1,0 +1,44 @@
+
+body {
+    color:#fefefe;
+    background-color:#0f0e17;
+    width: 800px;
+    height: 1200px;
+    margin:0 auto;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Yu Gothic";
+    color: #f25f4c;
+}
+
+.section,.abst {
+    font-family: consolas,"Yu gothic medium";
+    line-height: 35px;
+}
+
+.model {
+    text-align: center;
+}
+
+span {
+    font-family: "Yu Gothic";
+    font-weight:bold;
+}
+
+.abst {
+    padding-bottom:45px;
+    border-bottom:1px solid white ;
+}
+
+a {
+    text-decoration: none;
+}
+
+
