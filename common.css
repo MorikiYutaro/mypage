@@ -1,0 +1,161 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+/** 共通部分 **/
+
+a {
+    text-decoration: none;
+}
+
+body { 
+
+    font-family: "Sawarabi Gothic"; 
+    border-bottom: 2px solid white;
+    width:100%;
+    margin:0 auto;
+    
+}
+
+/** nav **/
+
+.nav-container {
+
+    background-color:#0f0e17;
+    height: 100px;
+    color:white;
+    width:100%;
+    position: relative;
+    
+}
+
+.logo {
+
+  position: absolute;
+
+}
+
+.menu {
+
+    position: absolute;
+    top:28%;
+    left:22.5%;
+    
+
+}
+
+.link {
+
+    float:right;
+    padding-right:70px;
+
+}
+
+.link a {
+
+    color:gray;
+    transition: all 0.7s;
+}
+
+.link a:hover {
+    color:white;
+}
+
+
+.logopic {
+    padding-top: 12px;
+    padding-left:7px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.logo-title {
+    width:200px;
+}
+
+.logo-title1 {
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    width: 136px;
+    height: 25px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: #FEFEFE;
+    opacity: 1;
+    font-size:20px;
+}
+
+.logo-title2 {
+    font-size: 13.5px;
+    position: absolute;
+    top: 44px;
+    left: 70px;
+    width: 175px;
+    height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    letter-spacing: 0.7px;
+}
+
+/** footer **/
+
+
+.footer {
+    text-align: center;
+    color:white;
+    height:100%;
+    background-color: #0f0e17;
+}
+
+.footer p {
+    padding-bottom:50px;
+}
+
+
+.all-links  {
+
+padding-top:100px;
+padding-bottom:100px;
+ height:100%;
+ display: flex;
+ align-items: center;   
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.link-item {
+    
+    opacity:0.8;
+    transition: all 0.5s;
+    color:black;
+    display: inline-block;
+    background-color: #e2e0dc ;
+    margin:10px;
+    width:25%;
+    padding:40px;
+}
+
+.link-item:hover {
+    opacity: 1.0;
+}
+
+
+.twitter-icon {
+    background-color:#00aced;
+    color:white;
+}
+
+.instagram-icon {
+    color:white;
+    background-image:linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);;;
+}
+
+
+
+/** fotter end **/
